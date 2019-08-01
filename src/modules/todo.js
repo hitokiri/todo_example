@@ -18,7 +18,7 @@ class TodoList extends React.Component {
         if(item.done === true){
             event.stopPropagation();
          }else{
-           this.props.onItemClick(item, event)
+           this.props.onItemClick(item, event);
          }
     }
 }
